@@ -9,7 +9,7 @@ namespace FirstProgram
         {
             Random ran1 = new Random();
             String val = "";
-            string values1 = "SOS";
+            string values1 = "SOS no SOS";
             
             int length = 1;
             for (int i = 0; i < length; i++)
