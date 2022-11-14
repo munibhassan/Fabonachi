@@ -18,7 +18,7 @@ public class RandomStringInArraySample
     {
         string[,] roomString = new string[4, 4];
         int count = 0;
-        string check = "   ";
+        string horiz = "   ";
         string verticle = "   ";
         for (int i = 0; i < 4; i++)
         {
@@ -26,25 +26,35 @@ public class RandomStringInArraySample
             {
 
                 roomString[i, j] = checkstring();
+                roomString[j, i] = checkstring();
+
                 Console.Write(roomString[i, j] + " ");
+                // Console.Write(roomString[j, i] + " ");
+
+                // Console.WriteLine();
 
 
-                check += roomString[i, j];
+                horiz += roomString[i, j];
+                verticle += roomString[j, i];
 
-                //  verticle += roomString[j, i];
 
             }
-            Console.WriteLine(" ");
-
+            Console.WriteLine();
 
         }
-        count = Matchstring(check, count);
 
-        count = Matchstring(verticle, count);
+
+        Console.WriteLine("Horizental sequence is " + horiz + " ");
+        count = Matchstring(horiz, count);
+
         Console.WriteLine("Total count of SOS : " + count);
 
+        Console.WriteLine("Verticle sequence is " + verticle + " ");
+        count = Matchstring(verticle, count);
+
+        Console.WriteLine("Total count of SOS : " + count);
+         horiz = "";
         verticle = "";
-        check = "";
     }
     public int Matchstring(string check, int count = 0)
     {
