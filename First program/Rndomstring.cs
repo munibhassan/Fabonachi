@@ -34,61 +34,92 @@ public class RandomStringInArraySample
                 roomString[i, j] = checkstring();
                 Console.Write(roomString[i, j] + " ");
 
-                //horiz[i,j] = roomString[i, j];
-                if ((i < 4) && (j < 4))
+                munnaarray[Eight_Row, Eight_Col] = roomString[i, j];
+                // Console.Write(munnaarray[Eight_Row, Eight_Col] + " ");
+                Eight_Col++;
+                if (Eight_Col == 8 && Eight_Row == 0)
                 {
-                    munnaarray[Eight_Row, Eight_Col] = roomString[i, j];
-                    Console.Write(munnaarray[Eight_Row, Eight_Col] + " ");
+                    Eight_Col = 0;
+                    Eight_Row = 1;
+                }
+
+            }
+
+            Console.WriteLine();
+
+        }
+        Console.WriteLine();
+        Console.WriteLine("Horizontal sequence is  ");
+        // horiz=verticle;
+        // Array.Resize(ref munnaarray,);
+        Eight_Row = 2;
+        Eight_Col = 0;
+
+        int Print_Row = 0;
+        int Print_Col = 0;
+
+        for (int i = 0; i < 10; i++)
+        {
+            for (int j = 0; j < 10; j++)
+            {
+
+                if (i < 4 && j < 4)
+                {
+                    munnaarray[Eight_Row, Eight_Col] = roomString[j, i];
+                    Console.Write(munnaarray[Print_Row, Print_Col] + " ");
                     Eight_Col++;
-                    if (Eight_Col == 8)
+                    Print_Col++;
+                    if (Eight_Col == 8 && Eight_Row == 2)
                     {
                         Eight_Col = 0;
+                        Eight_Row = 3;
+                    }
+                    if (Print_Col == 8)
+                    {
+                        Print_Col = 0;
+                        Print_Row++;
+                    }
+                }
+
+                if (i > 4 && j > 4)
+                {
+                    if (i == 5 && j == 5)
+                    {
+                        Console.WriteLine("Verticle sequence is  ");
+                    }
+                    Console.Write(munnaarray[Print_Row, Print_Col] + " ");
+                    if (Print_Col == 3 || Print_Col == 7)
+                    {
+                        Console.WriteLine();
+                    }
+                    Print_Col++;
+                    if (Print_Col == 8)
+                    {
+                        Print_Col = 0;
+                        Print_Row++;
                     }
                 }
 
             }
-            Eight_Row++;
-            if (Eight_Row == 8)
+
+            if (i < 4)
             {
-                Eight_Row = 0;
+                Console.WriteLine();
             }
-            Console.WriteLine();
-
-        }
-        Console.WriteLine();
-        Console.WriteLine("Verticle sequence is  ");
-        // horiz=verticle;
-        // Array.Resize(ref munnaarray,);
-        for (int i = 0; i < 4; i++)
-        {
-            for (int j = 0; j < 4; j++)
-            {
-
-
-                verticle[i, j] = horiz[j, i];
-
-                Console.Write(verticle[i, j] + " ");
-
-
-
-
-            }
-
-            Console.WriteLine();
 
         }
 
 
-        Console.WriteLine("Verticle sequence is  ");
+        // Console.WriteLine("Verticle sequence is  ");
 
         Console.WriteLine();
         //  count = Matchstring(verticle, count);
         Console.WriteLine("Total count of SOS : " + count);
-        Console.WriteLine();
+        //Console.WriteLine();
 
-        Console.WriteLine("Horizental sequence is  ");
+        //Console.WriteLine("Horizental sequence is  ");
 
-        Console.WriteLine();
+        //Console.WriteLine();
         // horiz = "";
         // verticle = "";
     }
