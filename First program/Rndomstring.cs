@@ -1,4 +1,5 @@
-﻿using FirstProgram;
+﻿using First_program;
+using FirstProgram;
 using System;
 public class RandomStringInArraySample
 {
@@ -148,7 +149,40 @@ public class RandomStringInArraySample
     {
         RandomStringInArraySample p = new RandomStringInArraySample();
         // p.checkstring();
-        p.method();
+        //  p.method();
+        Random random = new Random();
+        int n = random.Next(1, 101); // generates a random integer between 1 and 100
 
+        for (int i = 0; i < 100; i++)
+        {
+            n = random.Next(1, 101); // generates a random integer between 1 and 100
+            Console.Write("Input " + n.ToString()+": ");
+            fizzBuzz(n);
+        }
+   
     }
+
+    public static void fizzBuzz(int n)
+    {
+        string name = n.ToString();
+        if (n % 3 == 0 & n % 5 == 0)
+        {
+            name = "FizzBuzz";
+        }
+        else if (n % 3 == 0 & n % 5 != 0)
+        {
+            name = "Fizz";
+        }
+        else if (n % 3 != 0 & n % 5 == 0)
+        {
+            name = "Buzz";
+        }
+        else
+        {
+            name = n.ToString();
+        }
+
+        Console.WriteLine(name);
+    }
+
 }
