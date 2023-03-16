@@ -1,6 +1,9 @@
 ﻿using First_program;
 using FirstProgram;
 using System;
+using System.Collections.Generic;
+using System.Linq;
+
 public class RandomStringInArraySample
 {
     public string checkstring()
@@ -183,6 +186,27 @@ public class RandomStringInArraySample
         }
 
         Console.WriteLine(name);
+    }
+
+    public static List<int> compareTriplets(List<int> a, List<int> b)
+    {
+        int alice = 0; int bob = 0;
+        List<int> result = new List<int>(2);
+        for (int i = 0; i < a.Count; i++)
+        {
+            if (a[i] > b[i])
+            {
+                alice += 1;
+            }
+            else if (a[i] < b[i])
+            {
+                bob += 1;
+            }
+        }
+
+        result.Add(alice);
+        result.Add(bob);
+        return result;
     }
 
 }
