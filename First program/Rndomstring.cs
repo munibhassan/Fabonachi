@@ -150,19 +150,22 @@ public class RandomStringInArraySample
 
     public static void Main()
     {
-        RandomStringInArraySample p = new RandomStringInArraySample();
-        // p.checkstring();
-        //  p.method();
-        Random random = new Random();
-        int n = random.Next(1, 101); // generates a random integer between 1 and 100
+        //RandomStringInArraySample p = new RandomStringInArraySample();
+        //// p.checkstring();
+        ////  p.method();
+        //Random random = new Random();
+        //int n = random.Next(1, 101); // generates a random integer between 1 and 100
 
-        for (int i = 0; i < 100; i++)
-        {
-            n = random.Next(1, 101); // generates a random integer between 1 and 100
-            Console.Write("Input " + n.ToString()+": ");
-            fizzBuzz(n);
-        }
-   
+        //for (int i = 0; i < 100; i++)
+        //{
+        //    n = random.Next(1, 101); // generates a random integer between 1 and 100
+        //    Console.Write("Input " + n.ToString()+": ");
+        //    fizzBuzz(n);
+        //}
+
+        SalesbyMatch.sockMerchant(4, new List<int> { 5,3,1, 2, 3, 4, 5, 4, 6, 3, 3, 8 });
+
+
     }
 
     public static void fizzBuzz(int n)
