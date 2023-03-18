@@ -163,7 +163,9 @@ public class RandomStringInArraySample
         //    fizzBuzz(n);
         //}
 
-        SalesbyMatch.sockMerchant(4, new List<int> { 5,3,1, 2, 3, 4, 5, 4, 6, 3, 3, 8 });
+        // SalesbyMatch.sockMerchant(4, new List<int> { 5,3,1, 2, 3, 4, 5, 4, 6, 3, 3, 8 });
+        List<List<int>> arr = new List<List<int>>();
+        DiagonalDifference.diagonalDifference(arr);
 
 
     }
