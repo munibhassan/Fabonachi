@@ -172,7 +172,9 @@ public class RandomStringInArraySample
 
         // Staircase.staircase(5);
 
-        Mini_MaxSum.miniMaxSum(new List<int> { 999999999, 100000000, 10000000, 999999998, 999999997 });
+        // Mini_MaxSum.miniMaxSum(new List<int> { 999999999, 100000000, 10000000, 999999998, 999999997 });
+
+        BirthdayCakeCandles.birthdayCakeCandles(new List<int> { 5, 3, 1, 5, 3, 4 });
 
     }
 
