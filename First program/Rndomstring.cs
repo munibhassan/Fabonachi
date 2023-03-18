@@ -174,7 +174,8 @@ public class RandomStringInArraySample
 
         // Mini_MaxSum.miniMaxSum(new List<int> { 999999999, 100000000, 10000000, 999999998, 999999997 });
 
-        BirthdayCakeCandles.birthdayCakeCandles(new List<int> { 5, 3, 1, 5, 3, 4 });
+        //  BirthdayCakeCandles.birthdayCakeCandles(new List<int> { 5, 3, 1, 5, 3, 4 });
+        TimeConversion.timeConversion("07:05:45PM");
 
     }
 
