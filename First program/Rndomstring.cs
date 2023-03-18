@@ -170,7 +170,9 @@ public class RandomStringInArraySample
 
         // PlusMinus.plusMinus(new List<int> { -15, 3, -1, 2, 3, 0, 5, -4, 6, 3, 3, 18 });
 
-        Staircase.staircase(5);
+        // Staircase.staircase(5);
+
+        Mini_MaxSum.miniMaxSum(new List<int> { 999999999, 100000000, 10000000, 999999998, 999999997 });
 
     }
 
