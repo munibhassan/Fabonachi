@@ -167,8 +167,10 @@ public class RandomStringInArraySample
         // List<List<int>> arr = new List<List<int>>();
         // DiagonalDifference.diagonalDifference(arr);
 
-        
-        PlusMinus.plusMinus(new List<int> { -15, 3, -1, 2, 3, 0, 5, -4, 6, 3, 3, 18 });
+
+        // PlusMinus.plusMinus(new List<int> { -15, 3, -1, 2, 3, 0, 5, -4, 6, 3, 3, 18 });
+
+        Staircase.staircase(5);
 
     }
 
