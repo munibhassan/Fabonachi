@@ -263,11 +263,11 @@ public class RandomStringInArraySample
         //8008900 });
         #endregion
 
+        // LongestIncreasingSubsequence.longestIncreasingSubsequence(new List<long> { 2, 5, 3, 7, 11, 8, 10, 13, 6 });
 
+        //GradingStudents.gradingStudents(new List<int> { 73,67,38,33 });
 
-
-
-        LongestIncreasingSubsequence.longestIncreasingSubsequence(new List<long> { 2, 5, 3, 7, 11, 8, 10, 13, 6 });
+        GradingStudents.gradingStudents(new List<int> { 60,64,24,68,14,53,49,45,99,55,24,59,67,8 ,76,37,24,24,73 });
     }
 
     public static void fizzBuzz(int n)
