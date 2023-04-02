@@ -267,9 +267,49 @@ public class RandomStringInArraySample
 
         //GradingStudents.gradingStudents(new List<int> { 73,67,38,33 });
 
-        GradingStudents.gradingStudents(new List<int> { 60,64,24,68,14,53,49,45,99,55,24,59,67,8 ,76,37,24,24,73 });
-    }
+        //  GradingStudents.gradingStudents(new List<int> { 60,64,24,68,14,53,49,45,99,55,24,59,67,8 ,76,37,24,24,73 });
 
+        //  BasicProblemSolving.findSubstring("caberqiitefg", 5);
+        //List<string> dictionary = new List<string> { "hack", "a", "rank", "khac", "ackh", "kran", "rankhacker", "a", "ab", "ba", "stairs", "raits" };
+        //List<string> query = new List<string> { "a", "nark", "bs", "hack", "stair" };
+        //StringAnnagrams.stringAnagram(dictionary, query);
+
+        #region
+        //string s = "caberqiitefg";
+        //int maxLength = 0;
+        //string maxSubstring = "";
+
+        //for (int i = 0; i < s.Length; i++)
+        //{
+        //    if (IsVowel(s[i]))
+        //    {
+        //        for (int j = s.Length - 1; j > i; j--)
+        //        {
+        //            if (IsVowel(s[j]))
+        //            {
+        //                string substring = s.Substring(i, j - i + 1);
+        //                if (substring.Length > maxLength)
+        //                {
+        //                    maxLength = substring.Length;
+        //                    maxSubstring = substring;
+        //                }
+        //                break;
+        //            }
+        //        }
+        //    }
+        //}
+
+        //  Console.WriteLine("Longest substring that starts and ends with vowels: " + maxSubstring + ", length: " + maxLength);
+        #endregion
+
+        AppleAndOrange.countApplesAndOranges(7, 10, 4, 12, new List<int> { 2, 3, -4 }, new List<int> { 3, -2, -4 });
+
+
+    }
+    private static bool IsVowel(char c)
+    {
+        return "aeiou".IndexOf(Char.ToLower(c)) != -1;
+    }
     public static void fizzBuzz(int n)
     {
         string name = n.ToString();
