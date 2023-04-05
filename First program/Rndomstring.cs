@@ -302,7 +302,11 @@ public class RandomStringInArraySample
         //  Console.WriteLine("Longest substring that starts and ends with vowels: " + maxSubstring + ", length: " + maxLength);
         #endregion
 
-        AppleAndOrange.countApplesAndOranges(7, 10, 4, 12, new List<int> { 2, 3, -4 }, new List<int> { 3, -2, -4 });
+        // AppleAndOrange.countApplesAndOranges(7, 10, 4, 12, new List<int> { 2, 3, -4 }, new List<int> { 3, -2, -4 });
+
+        int x1 = 0, v1 = 3, x2 = 4, v2 = 2;
+        string result = NumberLineJumps.kangaroo(x1, v1, x2, v2);
+        Console.WriteLine(result); // Output: YES
 
 
     }
