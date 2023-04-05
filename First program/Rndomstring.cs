@@ -304,11 +304,15 @@ public class RandomStringInArraySample
 
         // AppleAndOrange.countApplesAndOranges(7, 10, 4, 12, new List<int> { 2, 3, -4 }, new List<int> { 3, -2, -4 });
 
-       // int x1 = 0, v1 = 3, x2 = 4, v2 = 2;
-        int x1 = 43, v1 = 2, x2 = 70, v2 = 2;
-           
-        string result = NumberLineJumps.kangaroo(x1, v1, x2, v2);
-        Console.WriteLine(result); // Output: YES
+        // int x1 = 0, v1 = 3, x2 = 4, v2 = 2;
+        //int x1 = 43, v1 = 2, x2 = 70, v2 = 2;
+
+        //string result = NumberLineJumps.kangaroo(x1, v1, x2, v2);
+        //Console.WriteLine(result); // Output: YES
+
+        BetweenTwoSets.getTotalX(new List<int> { 2 ,4 }, new List<int> { 16, 32, 96 });
+
+
 
 
     }
