@@ -21,12 +21,18 @@ namespace First_program
                 return "NO";
             }
             // Calculate the number of jumps required to meet
-            int jumps = (x2 - x1) / (v1 - v2);
-            // Check if the kangaroos meet at a positive integer jump
-            if (jumps >= 0 && x1 + jumps * v1 == x2 + jumps * v2)
+
+            if (v1 - v2 != 0)
             {
-                return "YES";
+                int jumps = (x2 - x1) / (v1 - v2);
+
+
+                if (jumps >= 0 && x1 + jumps * v1 == x2 + jumps * v2)
+                {
+                    return "YES";
+                }
             }
+
             return "NO";
         }
 
