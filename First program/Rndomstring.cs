@@ -159,7 +159,7 @@ public class RandomStringInArraySample
         //for (int i = 0; i < 100; i++)
         //{
         //    n = random.Next(1, 101); // generates a random integer between 1 and 100
-        //    Console.Write("Input " + n.ToString()+": ");
+        //    Console.Write("Input " + n.ToString() + ": ");
         //    fizzBuzz(n);
         //}
 
@@ -310,7 +310,7 @@ public class RandomStringInArraySample
         //string result = NumberLineJumps.kangaroo(x1, v1, x2, v2);
         //Console.WriteLine(result); // Output: YES
 
-        BetweenTwoSets.getTotalX(new List<int> { 2 ,4 }, new List<int> { 16, 32, 96 });//
+       // BetweenTwoSets.getTotalX(new List<int> { 2 ,4 }, new List<int> { 16, 32, 96 });//
 
 
 
