@@ -310,8 +310,9 @@ public class RandomStringInArraySample
         //string result = NumberLineJumps.kangaroo(x1, v1, x2, v2);
         //Console.WriteLine(result); // Output: YES
 
-       // BetweenTwoSets.getTotalX(new List<int> { 2 ,4 }, new List<int> { 16, 32, 96 });//
+        // BetweenTwoSets.getTotalX(new List<int> { 2 ,4 }, new List<int> { 16, 32, 96 });//
 
+        BreakingtheRecords.breakingRecords(new List<int> { 10, 5, 20, 20, 4, 5, 2, 25, 1});
 
 
 
