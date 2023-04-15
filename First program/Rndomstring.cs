@@ -312,7 +312,9 @@ public class RandomStringInArraySample
 
         // BetweenTwoSets.getTotalX(new List<int> { 2 ,4 }, new List<int> { 16, 32, 96 });//
 
-        BreakingtheRecords.breakingRecords(new List<int> { 10, 5, 20, 20, 4, 5, 2, 25, 1});
+        // BreakingtheRecords.breakingRecords(new List<int> { 10, 5, 20, 20, 4, 5, 2, 25, 1});
+
+        SubarrayDivision.birthday(new List<int> { 1, 2, 1, 3, 2 },3,2);
 
 
 
