@@ -324,8 +324,9 @@ public class RandomStringInArraySample
 
         //DayoftheProgrammer.dayOfProgrammer2(1918);
 
-        BillDivision.bonAppetit(new List<int> { 3, 10, 2, 9 }, 1, 12);
+        // BillDivision.bonAppetit(new List<int> { 3, 10, 2, 9 }, 1, 12);
 
+        DrawingBook.pageCount(6, 2);
 
 
     }
