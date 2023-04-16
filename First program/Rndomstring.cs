@@ -320,7 +320,9 @@ public class RandomStringInArraySample
 
         // MigratoryBirds.migratoryBirds(new List<int> { 1, 4, 4, 4, 5, 3 });
 
-        DayoftheProgrammer.dayOfProgrammer(1800);
+       // DayoftheProgrammer.dayOfProgrammer(1918);
+
+        DayoftheProgrammer.dayOfProgrammer2(1918);
 
 
 
