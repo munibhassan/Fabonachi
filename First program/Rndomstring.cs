@@ -314,7 +314,9 @@ public class RandomStringInArraySample
 
         // BreakingtheRecords.breakingRecords(new List<int> { 10, 5, 20, 20, 4, 5, 2, 25, 1});
 
-        SubarrayDivision.birthday(new List<int> { 1, 2, 1, 3, 2 },3,2);
+        // SubarrayDivision.birthday(new List<int> { 1, 2, 1, 3, 2 },3,2);
+        //DivisibleSumPairs.divisibleSumPairs(6,5,new List<int> { 1, 2, 3, 4, 5, 6 });
+        DivisibleSumPairs.divisibleSumPairs(6, 5, new List<int> { 1, 3, 2, 6, 1, 2 });
 
 
 
