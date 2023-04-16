@@ -6,7 +6,14 @@ using System.Threading.Tasks;
 
 namespace First_program
 {
-    internal class DrawingBook
+    public class DrawingBook
     {
+       public static int pageCount(int n, int p)
+        {
+            int fromFront = p / 2; // Number of pages to turn from the front
+            int fromBack = (n / 2) - fromFront; // Number of pages to turn from the back
+            return Math.Min(fromFront, fromBack); // Return the minimum of the two
+        }
+
     }
 }
