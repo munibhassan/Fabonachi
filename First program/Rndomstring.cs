@@ -316,7 +316,9 @@ public class RandomStringInArraySample
 
         // SubarrayDivision.birthday(new List<int> { 1, 2, 1, 3, 2 },3,2);
         //DivisibleSumPairs.divisibleSumPairs(6,5,new List<int> { 1, 2, 3, 4, 5, 6 });
-        DivisibleSumPairs.divisibleSumPairs(6, 5, new List<int> { 1, 3, 2, 6, 1, 2 });
+        //DivisibleSumPairs.divisibleSumPairs(6, 5, new List<int> { 1, 3, 2, 6, 1, 2 });
+
+        MigratoryBirds.migratoryBirds(new List<int> { 1, 4, 4, 4, 5, 3 });
 
 
 
