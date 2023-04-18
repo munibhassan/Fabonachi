@@ -328,7 +328,9 @@ public class RandomStringInArraySample
 
         // DrawingBook.pageCount(6, 2);
 
-        CountingValleys.countingValleys(8, "UDDDUDUU");
+        // CountingValleys.countingValleys(8, "UDDDUDUU");
+
+        ElectronicsShop.getMoneySpent(new int[] { 3, 1 }, new int[] { 5, 2, 8 }, 10);
 
 
     }
