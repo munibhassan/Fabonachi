@@ -326,7 +326,9 @@ public class RandomStringInArraySample
 
         // BillDivision.bonAppetit(new List<int> { 3, 10, 2, 9 }, 1, 12);
 
-        DrawingBook.pageCount(6, 2);
+        // DrawingBook.pageCount(6, 2);
+
+        CountingValleys.countingValleys(8, "UDDDUDUU");
 
 
     }
