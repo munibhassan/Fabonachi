@@ -330,7 +330,12 @@ public class RandomStringInArraySample
 
         // CountingValleys.countingValleys(8, "UDDDUDUU");
 
-        ElectronicsShop.getMoneySpent(new int[] { 3, 1 }, new int[] { 5, 2, 8 }, 10);
+        // ElectronicsShop.getMoneySpent(new int[] { 3, 1 }, new int[] { 5, 2, 8 }, 10);
+
+       CatsAndMouse.catAndMouse(1 ,2 ,3);
+        CatsAndMouse.catAndMouse(1, 3, 2);
+        CatsAndMouse.catAndMouse(33 ,86 ,59);
+      
 
 
     }
