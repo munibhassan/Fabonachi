@@ -332,10 +332,21 @@ public class RandomStringInArraySample
 
         // ElectronicsShop.getMoneySpent(new int[] { 3, 1 }, new int[] { 5, 2, 8 }, 10);
 
-       CatsAndMouse.catAndMouse(1 ,2 ,3);
-        CatsAndMouse.catAndMouse(1, 3, 2);
-        CatsAndMouse.catAndMouse(33 ,86 ,59);
-      
+        //CatsAndMouse.catAndMouse(1 ,2 ,3);
+        // CatsAndMouse.catAndMouse(1, 3, 2);
+        // CatsAndMouse.catAndMouse(33 ,86 ,59);}
+
+        //FormingaMagicSquare.formingMagicSquare(new List<List<int>> { new List<int>() { 4, 9, 2 },
+        //                                                             new List<int>() { 3, 5, 7 },
+        //                                                             new List<int>() { 8, 1, 5 } });
+
+        PickingNumbers.pickingNumbers(new List<int> { 4, 6, 5, 3, 3, 1 });
+
+        //PickingNumbers.pickingNumbers(new List<int> { 4, 97, 5, 97, 97, 4, 97, 4, 97, 97, 97, 97, 4, 4, 5, 5, 97, 
+        //    5, 97, 99, 4, 97, 5, 97, 97, 97, 5, 5, 97, 4, 5, 97, 97, 5, 97, 4, 97, 5, 4, 4, 97, 5, 5, 5, 4, 97,
+        //    97, 4, 97, 5, 4, 4, 97, 97, 97, 5, 5, 97, 4, 97, 97, 5, 4, 97, 97, 4, 97, 97, 97, 5, 4, 4, 97, 4, 4,
+        //    97, 5, 97, 97, 97, 97, 4, 97, 5, 97, 5, 4, 97, 4, 5, 97, 97, 5, 97, 5, 97, 5, 97, 97, 97 });
+
 
 
     }
