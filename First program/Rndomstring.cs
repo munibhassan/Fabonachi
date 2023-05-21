@@ -340,15 +340,16 @@ public class RandomStringInArraySample
         //                                                             new List<int>() { 3, 5, 7 },
         //                                                             new List<int>() { 8, 1, 5 } });
 
-        PickingNumbers.pickingNumbers(new List<int> { 4, 6, 5, 3, 3, 1 });
+        //PickingNumbers.pickingNumbers(new List<int> { 4, 6, 5, 3, 3, 1 });
 
         //PickingNumbers.pickingNumbers(new List<int> { 4, 97, 5, 97, 97, 4, 97, 4, 97, 97, 97, 97, 4, 4, 5, 5, 97, 
         //    5, 97, 99, 4, 97, 5, 97, 97, 97, 5, 5, 97, 4, 5, 97, 97, 5, 97, 4, 97, 5, 4, 4, 97, 5, 5, 5, 4, 97,
         //    97, 4, 97, 5, 4, 4, 97, 97, 97, 5, 5, 97, 4, 97, 97, 5, 4, 97, 97, 4, 97, 97, 97, 5, 4, 4, 97, 4, 4,
         //    97, 5, 97, 97, 97, 97, 4, 97, 5, 97, 5, 4, 97, 4, 5, 97, 97, 5, 97, 5, 97, 5, 97, 97, 97 });
 
-
-
+        //ClimbingtheLeaderboard.climbingLeaderboard(new List<int>() { 100, 100, 50, 40, 40, 20, 10 }, new List<int>() { 5 ,25 ,50 ,120 });
+        ClimbingtheLeaderboard.climbingLeaderboardChat(new List<int>() { 100, 100, 50, 40, 40, 20, 10 }, new List<int>() { 5, 25, 50, 120 });
+   
     }
     private static bool IsVowel(char c)
     {
