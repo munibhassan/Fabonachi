@@ -348,8 +348,10 @@ public class RandomStringInArraySample
         //    97, 5, 97, 97, 97, 97, 4, 97, 5, 97, 5, 4, 97, 4, 5, 97, 97, 5, 97, 5, 97, 5, 97, 97, 97 });
 
         //ClimbingtheLeaderboard.climbingLeaderboard(new List<int>() { 100, 100, 50, 40, 40, 20, 10 }, new List<int>() { 5 ,25 ,50 ,120 });
-        ClimbingtheLeaderboard.climbingLeaderboardChat(new List<int>() { 100, 100, 50, 40, 40, 20, 10 }, new List<int>() { 5, 25, 50, 120 });
-   
+        // ClimbingtheLeaderboard.climbingLeaderboardChat(new List<int>() { 100, 100, 50, 40, 40, 20, 10 }, new List<int>() { 5, 25, 50, 120 });
+
+        TheHurdleRace.hurdleRace(7, new List<int> { 2, 5, 4, 5, 2 });
+
     }
     private static bool IsVowel(char c)
     {
