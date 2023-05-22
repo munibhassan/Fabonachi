@@ -350,7 +350,9 @@ public class RandomStringInArraySample
         //ClimbingtheLeaderboard.climbingLeaderboard(new List<int>() { 100, 100, 50, 40, 40, 20, 10 }, new List<int>() { 5 ,25 ,50 ,120 });
         // ClimbingtheLeaderboard.climbingLeaderboardChat(new List<int>() { 100, 100, 50, 40, 40, 20, 10 }, new List<int>() { 5, 25, 50, 120 });
 
-        TheHurdleRace.hurdleRace(7, new List<int> { 2, 5, 4, 5, 2 });
+        //TheHurdleRace.hurdleRace(7, new List<int> { 2, 5, 4, 5, 2 });
+
+        DesignerPDFViewer.designerPdfViewer(new List<int> { 1, 3, 1 ,3 ,1, 4 ,1 ,3 ,2, 5, 5, 5, 5, 5, 5 ,5 ,5 ,5 ,5, 5 ,5 ,5 ,5, 5 ,5, 5 }, "abc");
 
     }
     private static bool IsVowel(char c)
