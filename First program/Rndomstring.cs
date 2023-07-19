@@ -153,15 +153,15 @@ public class RandomStringInArraySample
         //RandomStringInArraySample p = new RandomStringInArraySample();
         //// p.checkstring();
         ////  p.method();
-        Random random = new Random();
-        int n = random.Next(1, 101); // generates a random integer between 1 and 100
+        //Random random = new Random();
+        //int n = random.Next(1, 101); // generates a random integer between 1 and 100
 
-        for (int i = 0; i < 100; i++)
-        {
-            n = random.Next(1, 101); // generates a random integer between 1 and 100
-            Console.Write("Input " + n.ToString() + ": ");
-            fizzBuzz(n);
-        }
+        //for (int i = 0; i < 100; i++)
+        //{
+        //    n = random.Next(1, 101); // generates a random integer between 1 and 100
+        //    Console.Write("Input " + n.ToString() + ": ");
+        //    fizzBuzz(n);
+        //}
 
         // SalesbyMatch.sockMerchant(4, new List<int> { 5,3,1, 2, 3, 4, 5, 4, 6, 3, 3, 8 });
         // List<List<int>> arr = new List<List<int>>();
@@ -356,9 +356,21 @@ public class RandomStringInArraySample
 
         // UtopianTree.utopianTree(9);
 
-        AngryProfessor.angryProfessor(3, new List<int> { -1, -3, 4, 2 });
+        //AngryProfessor.angryProfessor(3, new List<int> { -1, -3, 4, 2 });
         //AngryProfessor.angryProfessor(2, new List<int> { 0 ,- 1 ,2 ,1 });
-    
+
+        // BeautifulDaysattheMovies.beautifulDays(20, 23, 6);
+        // Class1.sortedSum2(new List<int> { 9, 5, 8 });
+        // Class1.sortedSum2(new List<int> { 5, 9 });
+
+        // fintechtest.checkAlmostEquivalent(new List<string> { "adeaaefabcdef" }, new List<string> { "aefaffbcdfdff" });
+        //fintechtest.entryTime("423692", "923857614");
+        //  _ = fintechtest.GetMovieTitles("spide");
+        string movieData = await fintechtest.GetMovieData("substr");
+        Console.WriteLine(movieData);
+
+
+
     }
     private static bool IsVowel(char c)
     {
